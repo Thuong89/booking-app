@@ -10,13 +10,13 @@
 # Program file
 * example see file **main.go**
 * what the example covers:
-** Minimum struction of a main go program (package, import, code)
-** using print
-** using function
+  - Minimum struction of a main go program (package, import, code)
+  - using print
+  - using function
 
 # Clean code
-** no unused package
-** no unused variable
+* no unused package
+* no unused variable
 
 # Learning code
 * `var variablename = somevalue`
@@ -29,14 +29,17 @@
 * package time can be used to add waiting time.
 * `//` to comment
 * Array:index start 0
+* Slice is more scalable than array as no need to specify max elements. syntax the same as arry but no number inside square brackets.
+* `append` is a function using with Array or Slice to add 1 element in.
 * for loop syntax ```for initialization; condition; update {
   statement(s)
 }```
-* syntax `++` means increment
+* syntax `++` means increment. More operator in https://www.tutorialspoint.com/go/go_operators.htm
 
 # My reflection
 Go syntax is quite similar to Java. Obviously the language is young ( invented 2007 by Google, on top of C C++ and Java). 
 
 # Source: 
-**TechWorldwithNana https://www.youtube.com/watch?v=yyUHQIec83I&ab_channel=TechWorldwithNana
-** https://www.w3schools.com/
+- TechWorldwithNana https://www.youtube.com/watch?v=yyUHQIec83I&ab_channel=TechWorldwithNana
+- https://www.w3schools.com/
+- https://www.tutorialspoint.com
